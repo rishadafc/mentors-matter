@@ -12,6 +12,9 @@ gem 'devise'
 # Use Bootstrap as a responsive design framework
 gem 'bootstrap-sass'
 
+# Use Simple Form for form management
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
