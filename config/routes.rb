@@ -2,6 +2,11 @@ MentorsMatter::Application.routes.draw do
   root 'pages#home'
 
   get "about" => "pages#about"
+  
+  devise_scope :user do
+    get "register", to: "devise/registrations#new"
+    get "login", to: "devise/sessions#new"
+  end
 
   devise_for :users
   
