@@ -6,6 +6,8 @@ MentorsMatter::Application.routes.draw do
   devise_scope :user do
     get "register", to: "devise/registrations#new"
     get "login", to: "devise/sessions#new"
+    get "logout", to: "devise/sessions#destroy"
+    get "edit_profile", to: "devise/registrations#edit"
   end
 
   devise_for :users
