@@ -15,6 +15,9 @@ gem 'bootstrap-sass'
 # Use Font Awesome for icons
 gem "font-awesome-rails"
 
+# Use Paperclip for uploads
+gem "paperclip"
+
 # Use Simple Form for form management
 gem 'simple_form'
 

@@ -48,7 +48,7 @@ class ProjectsController < ApplicationController
 
 	# Strong parameters for object
 	def project_params
-		params.require(:project).permit(:title, :description)
+		params.require(:project).permit(:title, :description, :video)
 	end
 
 end

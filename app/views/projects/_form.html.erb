@@ -1,5 +1,6 @@
 <%= simple_form_for(@project, html: { class: 'form-horizontal' }) do |f| %>
   <%= f.input :title %>
-  <%= f.input :description, as: :text %><br/>
+  <%= f.input :description, as: :text %>
+  <%= f.input :video %><br/>
   <%= f.button :submit %>
 <% end %><br/>
