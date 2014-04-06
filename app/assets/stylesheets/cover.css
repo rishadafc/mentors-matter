@@ -108,6 +108,9 @@ body {
   }
 }
 
+input, textarea{
+    color: #333;
+}
 
 /*
  * Cover
