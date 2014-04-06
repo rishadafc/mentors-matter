@@ -1,6 +1,7 @@
-#Mentors Matter
+#Mentors Matter - Startup Weekend Bozeman 2014
 
-Our team project from Startup Weekend Bozeman 2014
+Discover. Play. Connect.
+
 
 ##TODO
 
