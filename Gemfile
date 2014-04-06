@@ -12,6 +12,9 @@ gem 'devise'
 # Use Bootstrap as a responsive design framework
 gem 'bootstrap-sass'
 
+# Use Font Awesome for icons
+gem "font-awesome-rails"
+
 # Use Simple Form for form management
 gem 'simple_form'
 
