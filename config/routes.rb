@@ -9,7 +9,12 @@ MentorsMatter::Application.routes.draw do
   end
 
   devise_for :users
+  
   resources :projects
+  
+  resources :categories do
+    resources :projects
+  end
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

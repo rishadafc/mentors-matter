@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
 	end
 	
 	def create
-		@project = Project.new(params[:project].permit(:title, :description))
+		@project = Project.new(project_params)
 
 		if @project.save
 			redirect_to @project
@@ -28,7 +28,7 @@ class ProjectsController < ApplicationController
 	def update
 		@project = Project.find(params[:id])
 
-		if @post.update(params[:project].permit(:title, :description))
+		if @post.update(project_params)
 			redirect_to @post
 		else
 			render 'edit'
